@@ -25,7 +25,7 @@ Inventory Example
 
 [Ubuntu]
 server1 ansible_host=192.0.2.10 ansible_user=ansible
-server2 ansible_host=192.0.2.10 ansible_user=fortune
+server2 ansible_host=192.0.2.10 ansible_user=raju
 server3 ansible_host=192.0.2.10 ansible_user=haju
 
 Replace the example IP with your authorized target IP.
