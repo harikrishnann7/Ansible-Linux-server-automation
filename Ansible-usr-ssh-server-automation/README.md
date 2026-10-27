@@ -36,7 +36,7 @@ ansible -i inventory all -m ping
 
 Timestamped Logging
 
-ansible -i inventory all -m ping -o 2>&1 | while IFS= read -r line; do echo "$(date '+%Y-%m-%d %H:%M:%S') $line"; done | tee -a ansibleping.log
+ansible -i inventory all -m ping -o 2>&1 | while IFS= read -r line; do echo "$(date '+%Y-%m-%d %H:%M:%S') $line"; done | tee -a ansible_ping.log
 
 Prerequisites
 
