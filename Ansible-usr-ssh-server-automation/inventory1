@@ -1,0 +1,4 @@
+[Ubuntu]
+ansible_172.23.80.102 ansible_host=172.23.80.102 ansible_user=ansible
+raju_172.23.80.102 ansible_host=172.23.80.102 ansible_user=raju
+haju_172.23.80.102 ansible_host=172.23.80.102 ansible_user=haju
